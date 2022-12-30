@@ -1,0 +1,17 @@
+x=10
+y=10.5
+a=True
+b="dhruvi"
+c=10+11j
+d=[2,3,4,5,6]
+e={1:"dhruvi",2:"dhara",3:"krishna"}
+f={1,2,3,4,}
+g=(1,2,3,4)
+print(type(x),id(x))
+print(type(y),id(y))
+print(type(a),id(a))
+print(type(b),id(b))
+print(type(c),id(c))
+print(type(d),id(d))
+print(type(e),id(e))
+print(type(f),id(f))

@@ -1,0 +1,26 @@
+l= []
+print(l)
+l.append(10)
+print(l)
+l.extend(range(2,5))
+print(l)
+l.insert(3,5)
+print(l)
+print("length of list is :",len(l))
+print("value of list at index 2 is :",l[2])
+print("value of  occurrences of element located at index 2 is :",l.count(l[2]))
+l1=[1,2,3,4,5,7]
+print(l1)
+l1.reverse()
+print("reverse of list l1 is :",l1)
+n=int(input("enter a number "))
+if n in l1:
+    print("it is in list")
+else:
+    print("it is not in list")
+l1.pop()
+print(l1)
+l1.remove(2)
+print(l1)
+l1.clear()
+print(l1)
